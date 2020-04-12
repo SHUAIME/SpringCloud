@@ -10,9 +10,12 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>../springcloud-provider-payment</module>
+        <module>../springcloud-provider-payment01</module>
         <module>../springcloud-consumer-order</module>
         <module>../springcloud-api-commons</module>
+        <module>../springcloud-eureka-server01</module>
+        <module>../springcloud-eureka-server02</module>
+        <module>../springcloud-provider-payment02</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
