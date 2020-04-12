@@ -2,44 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e82a03c9-b5d9-4131-91f2-838672b82648" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../springcloud-eureka-server01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-eureka-server01/src/main/java/com/yan/springcloud/EurekaServer01Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-eureka-server01/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-eureka-server02/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-eureka-server02/src/main/java/com/yan/springcloud/EurekaServer02Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-eureka-server02/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-provider-payment02/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-provider-payment02/src/main/java/com/yan/springcloud/Payment02Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-provider-payment02/src/main/java/com/yan/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-provider-payment02/src/main/java/com/yan/springcloud/dao/PaymentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-provider-payment02/src/main/java/com/yan/springcloud/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-provider-payment02/src/main/java/com/yan/springcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-provider-payment02/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-provider-payment02/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-consumer-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-consumer-order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-consumer-order/src/main/java/com/yan/springcloud/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-consumer-order/src/main/java/com/yan/springcloud/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-consumer-order/src/main/java/com/yan/springcloud/config/ApplicationContextConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-consumer-order/src/main/java/com/yan/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-consumer-order/src/main/java/com/yan/springcloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-consumer-order/src/main/java/com/yan/springcloud/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-consumer-order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-consumer-order/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-consumer-order/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-consumer-order/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-consumer-order/target/classes/com/yan/springcloud/OrderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-consumer-order/target/classes/com/yan/springcloud/OrderApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-consumerzk-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-consumerzk-order/src/main/java/com/yan/springcloud/OrderZKApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-consumerzk-order/src/main/java/com/yan/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-consumerzk-order/src/main/java/com/yan/springcloud/controller/OrderZKController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-consumerzk-order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-provider-payment04/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-provider-payment04/src/main/java/com/yan/springcloud/Payment04Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-provider-payment04/src/main/java/com/yan/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-provider-payment04/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-provider-payment/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-provider-payment01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-provider-payment/src/main/java/com/yan/springcloud/PaymentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-provider-payment01/src/main/java/com/yan/springcloud/Payment01Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-provider-payment/src/main/java/com/yan/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-provider-payment01/src/main/java/com/yan/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-provider-payment/src/main/java/com/yan/springcloud/dao/PaymentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-provider-payment01/src/main/java/com/yan/springcloud/dao/PaymentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-provider-payment/src/main/java/com/yan/springcloud/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-provider-payment01/src/main/java/com/yan/springcloud/service/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-provider-payment/src/main/java/com/yan/springcloud/service/impl/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-provider-payment01/src/main/java/com/yan/springcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-provider-payment/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-provider-payment01/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-provider-payment/src/main/resources/mapper/PaymentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-provider-payment01/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-provider-payment/target/classes/META-INF/springcloud-provider-payment.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-provider-payment/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-provider-payment/target/classes/com/yan/springcloud/controller/PaymentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-provider-payment/target/classes/com/yan/springcloud/dao/PaymentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-provider-payment01/target/classes/com/yan/springcloud/dao/PaymentDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-provider-payment/target/classes/com/yan/springcloud/service/PaymentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-provider-payment01/target/classes/com/yan/springcloud/service/PaymentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-provider-payment/target/classes/com/yan/springcloud/service/impl/PaymentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-provider-payment01/target/classes/com/yan/springcloud/service/impl/PaymentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-provider-payment/target/classes/mapper/PaymentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-provider-payment01/target/classes/mapper/PaymentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud-provider-payment01/target/classes/com/yan/springcloud/PaymentApplication.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,6 +23,8 @@
     <ignored path="$PROJECT_DIR$/../springcloud-eureka-server02/target/" />
     <ignored path="$PROJECT_DIR$/../springcloud-provider-payment01/target/" />
     <ignored path="$PROJECT_DIR$/../springcloud-provider-payment02/target/" />
+    <ignored path="$PROJECT_DIR$/../springcloud-provider-payment04/target/" />
+    <ignored path="$PROJECT_DIR$/../springcloud-consumerzk-order/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,37 +41,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../springcloud-provider-payment01/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/../springcloud-consumerzk-order/src/main/java/com/yan/springcloud/OrderZKApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="23" selection-end-column="27" />
+            <state relative-caret-position="125">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../springcloud-consumerzk-order/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../springcloud-consumer-order/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/../springcloud-provider-payment04/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            <state relative-caret-position="476">
+              <caret line="52" column="21" selection-start-line="34" selection-start-column="8" selection-end-line="52" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../springcloud-provider-payment02/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/../springcloud-consumerzk-order/src/main/java/com/yan/springcloud/controller/OrderZKController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../springcloud-provider-payment01/src/main/java/com/yan/springcloud/controller/PaymentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+            <state relative-caret-position="584">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,13 +84,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../springcloud-provider-payment01/src/main/java/com/yan/springcloud/Payment01Application.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../springcloud-consumerzk-order/src/main/java/com/yan/springcloud/config/ApplicationContextConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="459">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -178,6 +159,15 @@
         <option value="$PROJECT_DIR$/../springcloud-consumer-order/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/../springcloud-provider-payment01/src/main/java/com/yan/springcloud/controller/PaymentController.java" />
         <option value="$PROJECT_DIR$/../springcloud-provider-payment01/src/main/java/com/yan/springcloud/Payment01Application.java" />
+        <option value="$PROJECT_DIR$/../springcloud-provider-payment04/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../springcloud-provider-payment04/src/main/java/com/yan/springcloud/Payment04Application.java" />
+        <option value="$PROJECT_DIR$/../springcloud-provider-payment04/src/main/java/com/yan/springcloud/controller/PaymentController.java" />
+        <option value="$PROJECT_DIR$/../springcloud-provider-payment04/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloud-consumerzk-order/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../springcloud-consumerzk-order/src/main/java/com/yan/springcloud/OrderZKApplication.java" />
+        <option value="$PROJECT_DIR$/../springcloud-consumerzk-order/src/main/java/com/yan/springcloud/controller/OrderZKController.java" />
+        <option value="$PROJECT_DIR$/../springcloud-consumerzk-order/src/main/java/com/yan/springcloud/config/ApplicationContextConfig.java" />
+        <option value="$PROJECT_DIR$/../springcloud-consumerzk-order/pom.xml" />
       </list>
     </option>
   </component>
@@ -224,51 +214,29 @@
           <expand>
             <path>
               <item name="springcloud-dependencies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-consumer-order" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-consumerzk-order" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-dependencies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-consumer-order" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-consumerzk-order" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-dependencies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-consumer-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-dependencies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-consumer-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-dependencies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-provider-payment01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-dependencies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-provider-payment01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-dependencies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-provider-payment01" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-consumerzk-order" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-dependencies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-provider-payment01" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-consumerzk-order" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-dependencies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-provider-payment01" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-consumerzk-order" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -276,7 +244,16 @@
             </path>
             <path>
               <item name="springcloud-dependencies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-provider-payment01" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-consumerzk-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-dependencies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-consumerzk-order" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -285,32 +262,7 @@
             </path>
             <path>
               <item name="springcloud-dependencies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-provider-payment01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-dependencies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-provider-payment02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-dependencies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-provider-payment02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-dependencies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-provider-payment02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-dependencies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-provider-payment02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-provider-payment04" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -325,7 +277,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586700269377" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586703742189" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/../springcloud-api-commons/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../springcloud-eureka-server/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -362,20 +314,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Payment02Application">
-    <configuration name="EurekaServer01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springcloud-eureka-server01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yan.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yan.springcloud.EurekaServer01Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.OrderZKApplication">
     <configuration name="EurekaServer02Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springcloud-eureka-server02" />
       <extension name="coverage">
@@ -398,6 +337,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yan.springcloud.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderZKApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-consumerzk-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yan.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yan.springcloud.OrderZKApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -428,20 +380,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Payment04Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-provider-payment04" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yan.springcloud.Payment04Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.OrderApplication" />
       <item itemvalue="Spring Boot.Payment01Application" />
-      <item itemvalue="Spring Boot.EurekaServer01Application" />
       <item itemvalue="Spring Boot.EurekaServer02Application" />
       <item itemvalue="Spring Boot.Payment02Application" />
+      <item itemvalue="Spring Boot.Payment04Application" />
+      <item itemvalue="Spring Boot.OrderZKApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OrderZKApplication" />
         <item itemvalue="Spring Boot.OrderApplication" />
         <item itemvalue="Spring Boot.Payment01Application" />
         <item itemvalue="Spring Boot.Payment02Application" />
         <item itemvalue="Spring Boot.EurekaServer02Application" />
-        <item itemvalue="Spring Boot.EurekaServer01Application" />
       </list>
     </recent_temporary>
   </component>
@@ -457,18 +417,17 @@
       <updated>1586533160753</updated>
       <workItem from="1586533166984" duration="4396000" />
       <workItem from="1586684098160" duration="3494000" />
-      <workItem from="1586689995566" duration="10285000" />
+      <workItem from="1586689995566" duration="13300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18175000" />
+    <option name="totallyTimeSpent" value="21190000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34039333" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34039333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -476,7 +435,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" visible="true" weight="0.5770492" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" visible="true" weight="0.5770492" />
       <window_info anchor="bottom" id="Problems" weight="0.3295082" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -484,7 +443,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
@@ -762,34 +721,120 @@
     <entry file="file://$PROJECT_DIR$/../springcloud-provider-payment01/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
-          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="23" selection-end-column="27" />
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="23" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../springcloud-consumer-order/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../springcloud-provider-payment01/src/main/java/com/yan/springcloud/controller/PaymentController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-68">
-          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../springcloud-provider-payment04/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springcloud-provider-payment04/src/main/java/com/yan/springcloud/Payment04Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../springcloud-provider-payment01/src/main/java/com/yan/springcloud/Payment01Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
+        <state relative-caret-position="273">
           <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springcloud-provider-payment04/src/main/java/com/yan/springcloud/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springcloud-consumerzk-order/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springcloud-consumerzk-order/src/main/java/com/yan/springcloud/config/ApplicationContextConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springcloud-consumerzk-order/src/main/java/com/yan/springcloud/controller/OrderZKController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springcloud-consumerzk-order/src/main/java/com/yan/springcloud/OrderZKApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springcloud-provider-payment04/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="52" column="21" selection-start-line="34" selection-start-column="8" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springcloud-consumerzk-order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
         </state>
       </provider>
     </entry>
