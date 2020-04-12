@@ -11,6 +11,8 @@
 
     <modules>
         <module>../springcloud-provider-payment</module>
+        <module>../springcloud-consumer-order</module>
+        <module>../springcloud-api-commons</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
