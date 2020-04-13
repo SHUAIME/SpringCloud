@@ -18,6 +18,8 @@
         <module>../springcloud-provider-payment02</module>
         <module>../springcloud-provider-payment04</module>
         <module>../springcloud-consumerzk-order</module>
+        <module>../springcloud-providerconsul-payment06</module>
+        <module>../springcloud-consumerconsul-order</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
