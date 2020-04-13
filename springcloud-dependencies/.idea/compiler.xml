@@ -8,11 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-api-commons" />
+        <module name="springcloud-consumer-feign-order" />
         <module name="springcloud-consumer-order" />
         <module name="springcloud-consumerconsul-order" />
         <module name="springcloud-consumerzk-order" />
         <module name="springcloud-eureka-server01" />
         <module name="springcloud-eureka-server02" />
+        <module name="springcloud-provider-hystrix-payment" />
         <module name="springcloud-provider-payment01" />
         <module name="springcloud-provider-payment02" />
         <module name="springcloud-provider-payment04" />

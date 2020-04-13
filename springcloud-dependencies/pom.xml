@@ -20,6 +20,8 @@
         <module>../springcloud-consumerzk-order</module>
         <module>../springcloud-providerconsul-payment06</module>
         <module>../springcloud-consumerconsul-order</module>
+        <module>../springcloud-consumer-feign-order</module>
+        <module>../springcloud-provider-hystrix-payment</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
