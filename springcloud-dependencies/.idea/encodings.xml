@@ -20,6 +20,14 @@
     <file url="file://$PROJECT_DIR$/../springcloud-provider-payment02" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../springcloud-provider-payment04" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../springcloud-providerconsul-payment06" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springcloud-stream-rabbitmq-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springcloud-stream-rabbitmq-consumer2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springcloud-stream-rabbitmq-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springcloudalibaba-config-nacos-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springcloudalibaba-consumer-nacos-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springcloudalibaba-provider-payment01" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springcloudalibaba-provider-payment02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springcloudalibaba-sentinel-service" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

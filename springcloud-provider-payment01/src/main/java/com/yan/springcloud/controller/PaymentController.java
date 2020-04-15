@@ -31,6 +31,11 @@ public class PaymentController {
     @Resource
     private DiscoveryClient discoveryClient;
 
+    //    新增一个方法
+    @GetMapping(value="/payment/zipkin")
+    public String paymentZipkin() {
+        return "hello,i am paymentZipkin server fallback,O(∩_∩)O哈哈~";
+    }
 
     @GetMapping(value = "/payment/discovery")
     public Object discovery(){

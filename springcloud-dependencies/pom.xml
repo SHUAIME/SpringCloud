@@ -28,6 +28,14 @@
         <module>../springcloud-config-center</module>
         <module>../springcloud-config-client</module>
         <module>../springcloud-config-bus-client</module>
+        <module>../springcloud-stream-rabbitmq-provider</module>
+        <module>../springcloud-stream-rabbitmq-consumer</module>
+        <module>../springcloud-stream-rabbitmq-consumer2</module>
+        <module>../springcloudalibaba-provider-payment01</module>
+        <module>../springcloudalibaba-provider-payment02</module>
+        <module>../springcloudalibaba-consumer-nacos-order</module>
+        <module>../springcloudalibaba-config-nacos-client</module>
+        <module>../springcloudalibaba-sentinel-service</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->

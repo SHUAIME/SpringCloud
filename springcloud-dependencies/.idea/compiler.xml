@@ -25,6 +25,14 @@
         <module name="springcloud-provider-payment02" />
         <module name="springcloud-provider-payment04" />
         <module name="springcloud-providerconsul-payment06" />
+        <module name="springcloud-stream-rabbitmq-consumer" />
+        <module name="springcloud-stream-rabbitmq-consumer2" />
+        <module name="springcloud-stream-rabbitmq-provider" />
+        <module name="springcloudalibaba-config-nacos-client" />
+        <module name="springcloudalibaba-consumer-nacos-order" />
+        <module name="springcloudalibaba-provider-payment01" />
+        <module name="springcloudalibaba-provider-payment02" />
+        <module name="springcloudalibaba-sentinel-service" />
       </profile>
     </annotationProcessing>
   </component>
