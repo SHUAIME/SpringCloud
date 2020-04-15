@@ -25,6 +25,9 @@
         <module>../springcloud-consumer-feign-hystrix-order</module>
         <module>../springcloud-consumer-hystrix-dashboard</module>
         <module>../springcloud-gateway-gateway</module>
+        <module>../springcloud-config-center</module>
+        <module>../springcloud-config-client</module>
+        <module>../springcloud-config-bus-client</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->

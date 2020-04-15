@@ -8,6 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-api-commons" />
+        <module name="springcloud-config-bus-client" />
+        <module name="springcloud-config-center" />
+        <module name="springcloud-config-client" />
         <module name="springcloud-consumer-feign-hystrix-order" />
         <module name="springcloud-consumer-feign-order" />
         <module name="springcloud-consumer-hystrix-dashboard" />
