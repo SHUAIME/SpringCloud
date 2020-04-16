@@ -30,10 +30,18 @@
         <module name="springcloud-stream-rabbitmq-provider" />
         <module name="springcloudalibaba-config-nacos-client" />
         <module name="springcloudalibaba-consumer-nacos-order" />
+        <module name="springcloudalibaba-consumer-nacos-order04" />
         <module name="springcloudalibaba-provider-payment01" />
         <module name="springcloudalibaba-provider-payment02" />
+        <module name="springcloudalibaba-provider-payment03" />
+        <module name="springcloudalibaba-provider-payment04" />
         <module name="springcloudalibaba-sentinel-service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="seata-account-service03" target="1.8" />
+      <module name="seata-order-service" target="1.8" />
+      <module name="seata-order-service02" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

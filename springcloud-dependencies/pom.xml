@@ -36,6 +36,9 @@
         <module>../springcloudalibaba-consumer-nacos-order</module>
         <module>../springcloudalibaba-config-nacos-client</module>
         <module>../springcloudalibaba-sentinel-service</module>
+        <module>../springcloudalibaba-consumer-nacos-order04</module>
+        <module>../springcloudalibaba-provider-payment03</module>
+        <module>../springcloudalibaba-provider-payment04</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
